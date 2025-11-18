@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.bedework</groupId>
     <artifactId>bedework-parent</artifactId>
-    <version>216-SNAPSHOT</version>
+    <version>239-SNAPSHOT</version>
   </parent>
 
   <groupId>org.bedework.bwwebcl</groupId>
@@ -33,6 +33,11 @@
          and NOT the version set in bedework-parent
     -->
     <dependencies>
+      <dependency>
+        <groupId>org.bedework.bwwebcl</groupId>
+        <artifactId>bw-calendar-webclient-common</artifactId>
+        <version>${project.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 </project>

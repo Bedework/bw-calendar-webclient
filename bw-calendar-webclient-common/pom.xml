@@ -32,6 +32,11 @@
       <artifactId>bw-calendar-facade</artifactId>
     </dependency>
 
+    <dependency>
+      <groupId>org.bedework</groupId>
+      <artifactId>bw-web</artifactId>
+    </dependency>
+
     <!-- Third Party -->
     <dependency>
       <groupId>jakarta.servlet</groupId>

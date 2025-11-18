@@ -10,4 +10,11 @@
   </parent>
 
   <artifactId>bw-calendar-webclient-ro</artifactId>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.bedework.bwwebcl</groupId>
+      <artifactId>bw-calendar-webclient-common</artifactId>
+    </dependency>
+  </dependencies>
 </project>
